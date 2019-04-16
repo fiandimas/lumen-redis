@@ -25,6 +25,7 @@ $app->withFacades();
 
 $app->withEloquent();
 
+
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
