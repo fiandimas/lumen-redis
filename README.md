@@ -14,11 +14,10 @@ Install this project
 3. Run "composer install"
 4. Copy .env.example to .env
 5. Set mysql connection (host,user,pass,db) and redis in .env
-6. Run "composer install"
-7. Run "php artisan migrate"
-8. Run "php artisan db:seed"
-9. Run "php -S localhost:8000 -t public"
-10. Enjoy
+6. Run "php artisan migrate"
+7. Run "php artisan db:seed"
+8. Run "php -S localhost:8000 -t public"
+9. Enjoy
 
 Route
 
