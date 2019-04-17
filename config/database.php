@@ -2,6 +2,8 @@
 
 return [
 
+    'default' => env('DB_CONNECTION','mysql'),
+
     'redis' => [
 
         'client' => 'predis',
@@ -37,5 +39,7 @@ return [
             'strict' => true,
             'engine' => null,
         ],
-    ]
+    ],
+
+    'migrations' => 'migrations',
 ];
